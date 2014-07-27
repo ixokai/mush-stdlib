@@ -1,0 +1,13 @@
+[project]
+name=Standard Library
+desc=The 'standard library' is a set of common utility functions that can be a foundation for larger systems. It is made up of
+     three kinds of functions: 1) Common data structures, 2) UI functions for overriding, and 3) convienence/helper functions.
+root=.
+
+[target-stdlib]
+define=#stdlib
+object=Standard Library; stdlib
+
+flags=inherit
+
+files=dict.mu interface.mu misc.mu
